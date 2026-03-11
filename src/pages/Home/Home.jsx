@@ -1,6 +1,6 @@
-import Header from "../../components/header/Header"
+import Header from "../../components/Header/Header"
 import Personaje from "../../components/CardPersonaje/Personaje"
-import Historia from "../../components/historias/Historia"
+import Historia from "../../components/Historias/Historia"
 import Footer from '../../components/Footer/Footer'
 import './Home.css'
 
