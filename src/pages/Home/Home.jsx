@@ -1,4 +1,4 @@
-import Header from "../../components/header/header"
+import Header from "../../components/header/Header"
 import Personaje from "../../components/CardPersonaje/Personaje"
 import Historia from "../../components/historias/historia"
 import Footer from '../../components/Footer/Footer'
