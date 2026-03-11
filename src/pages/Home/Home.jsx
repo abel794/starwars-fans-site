@@ -1,0 +1,21 @@
+import Header from "../../components/header/header"
+import Personaje from "../../components/CardPersonaje/Personaje"
+import Historia from "../../components/historias/historia"
+import Footer from '../../components/Footer/Footer'
+import './Home.css'
+
+export default function Home() {
+
+    return(
+        <div>
+            <Header/>
+            <Historia />
+            <section className="personajes-home">
+                <h2>Personajes Icónicos de la Saga</h2>
+                <Personaje/>
+            </section>
+            <Footer />
+            
+        </div>
+    )
+}

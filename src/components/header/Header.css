@@ -1,0 +1,98 @@
+/* Header.css */
+
+/* Importa una fuente de estilo Star Wars (opcional) */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+header {
+  background-color: #0a0a0a; /* Fondo casi negro */
+  color: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #ffe81f; /* Línea amarilla estilo sable */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.header-container {
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title-header {
+  font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffe81f; /* Amarillo Star Wars */
+  text-shadow: 0 0 5px rgba(255, 232, 31, 0.5);
+  margin: 0;
+}
+
+.menu-header {
+  display: flex;
+  list-style: none;
+  margin-left: 50px;
+  padding: 0;
+  gap: 2rem;
+}
+
+.menu-header li a {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Efecto hover con subrayado animado estilo láser */
+.menu-header li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffe81f;
+  transition: width 0.3s ease;
+}
+
+.menu-header li a:hover {
+  color: #ffe81f;
+}
+
+.menu-header li a:hover::after {
+  width: 100%;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .title-header {
+    font-size: 1.8rem;
+  }
+
+  .menu-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .menu-header li a {
+    font-size: 1rem;
+  }
+}

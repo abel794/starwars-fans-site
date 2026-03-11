@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@400;600&display=swap');
+
+/* Contenedor principal de la grid */
+.personajesLeyenda-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 25px;
+  padding: 40px;
+  background: linear-gradient(180deg, #0b0c1000, #1c1c1c13);
+}
+.scroll-reveal{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease,transform 0.8s ease;
+}
+
+.scroll-reveal.is-visible{
+    opacity: 1;
+    transform: translateY(0)
+}
+
+
+
+/* Tarjeta de personaje */
+.personaje-card {
+  background: linear-gradient(145deg, #1f1f1f, #2c2c2c);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255, 242, 0, 0.2);
+  transition: transform 0.4s, box-shadow 0.4s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+/* Hover futurista */
+.personaje-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.5);
+}
+
+/* Imagen del personaje */
+.personajeLeyenda-imagen {
+  width: 100%;
+  border-bottom: 2px solid #eaff0000;
+  position: relative;
+  overflow: hidden;
+}
+
+.personajeLeyenda-imagen img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.personaje-card:hover .personajeLeyenda-imagen img {
+  transform: scale(1.1);
+}
+
+/* Título */
+.personajeLeyenda-title {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffff;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 1.3rem;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+
+/* Sección de historia */
+.personajeLeyenda-section {
+  padding: 10px 15px 20px;
+  flex-grow: 1;
+}
+
+.personajeLeyenda-p {
+  font-family: 'Exo 2', sans-serif;
+  color: #c0c0c0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  text-shadow: 0 0 2px #00ffff20;
+}
+
+/* Scroll suave en caso de overflow */
+.personajeLeyenda-section {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Estilo del scrollbar para futurista */
+.personajeLeyenda-section::-webkit-scrollbar {
+  width: 6px;
+}
+
+.personajeLeyenda-section::-webkit-scrollbar-track {
+  background: #1c1c1c;
+}
+
+.personajeLeyenda-section::-webkit-scrollbar-thumb {
+  background: #00ffff50;
+  border-radius: 3px;
+}
+

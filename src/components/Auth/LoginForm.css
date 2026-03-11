@@ -1,0 +1,50 @@
+.Login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    
+    background-color: rgba(245, 243, 240, 0.396);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    gap: 20px;
+}
+.input-Login-input{
+    text-align: center;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.468);
+}
+.btn-LoginForm{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(245, 243, 240, 0.396);
+    font-size: 1.0rem;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.btn-LoginForm:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+.title-Loginform{
+    margin-bottom: 80px ;
+}
+.cuenta-no{
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.cuenta-no:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0)
+}

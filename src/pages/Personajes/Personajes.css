@@ -1,0 +1,18 @@
+h1{
+    margin-top: 30px ;
+}
+.h-personajesPages{
+    text-align: center;
+    color: yellow;
+    font-size: 3.5rem;
+
+}
+.p-personajesPages{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+.personajes-personajesPages{
+    padding-top: 30px;
+}

@@ -1,0 +1,105 @@
+/* NavesCards.css */
+
+/* Contenedor general */
+.naves-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background: #0d0d0d00; /* fondo oscuro */
+  min-height: 100vh;
+}
+
+/* Tarjeta individual */
+.card-naves {
+  background: #1a1a1a;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #00ffff50;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+/* Hover efecto futurista */
+.card-naves:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 0 30px #00ffff;
+}
+
+/* Título de la nave */
+.nave-title {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffff;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 0 0 5px #00ffff;
+  font-size: 1.4rem;
+}
+
+/* Imagen de la nave */
+.nave-imagen img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 15px #00ffff50;
+  transition: transform 0.3s;
+}
+
+.nave-imagen img:hover {
+  transform: scale(1.05);
+}
+
+/* Datos de la nave */
+.nave-datos {
+  margin-top: 10px;
+  color: #c0c0c0;
+  font-family: 'Exo 2', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nave-datos p {
+  margin: 0;
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.nave-datos span {
+  margin-right: 5px;
+}
+.enlace-p{
+    text-align: center;
+    padding-top: 10px 0;
+}
+.enlace {
+  color: #00ffff;
+  text-decoration: none;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1rem;
+  transition: color 0.3s
+}
+
+.enlace:hover {
+  color: #00ff00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-naves {
+    padding: 10px;
+  }
+
+  .nave-imagen img {
+    height: 180px;
+  }
+
+  .nave-title {
+    font-size: 1.2rem;
+  }
+}
