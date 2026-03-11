@@ -1,4 +1,4 @@
-import Header from "../../components/Header/Header.jsx"
+import Header from "../../components/header/Header.jsx"
 import Personaje from "../../components/CardPersonaje/Personaje.jsx"
 import Historia from "../../components/Historias/Historia.jsx"
 import Footer from "../../components/Footer/Footer.jsx"
