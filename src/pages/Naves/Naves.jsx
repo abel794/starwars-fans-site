@@ -1,5 +1,5 @@
 import NavesCard from '../../components/NavesCards/NavesCards'
-import Header from '../../components/Header/Header';
+import Header from '../../components/header/Header';
 export default function Naves() {
     
   return (
