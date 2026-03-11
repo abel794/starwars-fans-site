@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home.jsx";
-import Personajes from "./pages/Personajes/Personajes";
-import Naves from'./pages/Naves/Naves'
-import Login from "./pages/Auth/login/Login";
+import Personajes from "./pages/Personajes/Personajes.jsx";
+import Naves from'./pages/Naves/Naves.jsx'
+import Login from "./pages/Auth/login/Login.jsx";
 
 function App() {
 
