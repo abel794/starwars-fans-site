@@ -2,7 +2,7 @@
 import { useState } from "react";
 import PersonajeLeyenda from "../../components/personajeLeyenda/personajeLeyenda";
 import Header from "../../components/header/Header.jsx";
-import Buscar from "../../components/Buscar/Buscar.jsx";
+import Buscar from "../../components/buscar/Buscar.jsx";
 import "./Personajes.css";
 
 export default function Personajes(){
