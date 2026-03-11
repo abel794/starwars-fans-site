@@ -1,7 +1,7 @@
 // pages/Personajes/Personajes.jsx
 import { useState } from "react";
 import PersonajeLeyenda from "../../components/personajeLeyenda/PersonajeLeyenda";
-import Header from "../../components/Header/Header.jsx";
+import Header from "../../components/header/Header.jsx";
 import Buscar from "../../components/Buscar/Buscar.jsx";
 import "./Personajes.css";
 
