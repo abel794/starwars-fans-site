@@ -28,17 +28,17 @@ Incluye:
 src/
 │
 ├── components/
-│ ├── personajeLeyenda/
-│ │ ├── personajeLeyenda.jsx
-│ │ ├── ModalPersonaje.jsx
-│ │ └── personajeLeyenda.css
+│   ├── personajeLeyenda/
+│   │   ├── personajeLeyenda.jsx
+│   │   ├── ModalPersonaje.jsx
+│   │   └── personajeLeyenda.css
 │
 ├── hooks/
-│ ├── usePersonajesLeyenda.js
-│ └── useFiltrado.js
+│   ├── usePersonajesLeyenda.js
+│   └── useFiltrado.js
 │
 ├── services/
-│ └── starwarsApi.js
+│   └── starwarsApi.js
 │
 └── App.jsx
 
@@ -48,12 +48,11 @@ src/
 
 1️⃣ Clonar el repositorio
 
-```bash
-git clone https://github.com/tu-repo/starwars-app
+git clone https://github.com/abel794/starwars-fans-site.git
 
 2️⃣ Entrar al proyecto
 
-cd starwars-app
+cd starwars-fans-site
 
 3️⃣ Instalar dependencias
 
