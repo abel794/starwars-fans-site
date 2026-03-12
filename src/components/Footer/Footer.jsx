@@ -1,6 +1,6 @@
 import './Footer.css';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGit, FaGithub } from 'react-icons/fa'; // Si no usas react-icons, borra esta línea
-
+import { Link } from 'react-router-dom';
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -20,9 +20,9 @@ export default function Footer() {
         <div className="footer-section">
           <h3>Enlaces Rápidos</h3>
           <ul>
-            <li><a href="/home">Inicio</a></li>
-            <li><a href="/Personajes">Personajes</a></li>
-            <li><a href="/contacto">Naves</a></li>
+            <li><Link to="/home">Inicio</Link></li>
+            <li><Link to="/Personajes">Personajes</Link></li>
+            <li><Link to="/contacto">Naves</Link></li>
           </ul>
         </div>
 
