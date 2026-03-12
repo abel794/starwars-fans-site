@@ -1,5 +1,5 @@
 import Header from "../../components/header/Header.jsx"; // ajusta según la realidad
-import Personaje from "../../components/cardPersonaje/Personaje.jsx";
+import Personaje from "../../components/CardPersonaje/Personaje.jsx";
 import Historia from "../../components/historias/Historia.jsx";
 import Footer from "../../components/footer/Footer.jsx";
 import "./Home.css";
