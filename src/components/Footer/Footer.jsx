@@ -22,7 +22,7 @@ export default function Footer() {
           <ul>
             <li><Link to="/home">Inicio</Link></li>
             <li><Link to="/Personajes">Personajes</Link></li>
-            <li><Link to="/contacto">Naves</Link></li>
+            <li><Link to="/Naves">Naves</Link></li>
           </ul>
         </div>
 
