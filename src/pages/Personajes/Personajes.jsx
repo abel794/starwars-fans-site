@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PersonajeLeyenda from "../../components/personajeLeyenda/PersonajeLeyenda.jsx";
+import PersonajeLeyenda from "../../components/personajeLeyenda/personajeLeyenda.jsx";
 import Header from "../../components/header/Header.jsx";//no se porque no aparecen los canbios esta bn 
 import Buscar from "../../components/buscar/Buscar.jsx";
 
