@@ -1,7 +1,7 @@
 import Header from "../../components/header/Header.jsx"; // ajusta según la realidad
 import Personaje from "../../components/CardPersonaje/Personaje.jsx";
 import Historia from "../../components/historias/historia.jsx";
-import Footer from "../../components/footer/Footer.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
 import "./Home.css";
 
 export default function Home() {
