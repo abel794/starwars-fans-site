@@ -1,5 +1,5 @@
 import { usePersonajes } from "../../hooks/usePersonajes";
-import PersonajeCard from "../PersonajeCard/PersonajeCard";
+import PersonajeCard from "../personajeCard/PersonajeCard";
 import "./Personaje.css";
 
 export default function Personaje() {

@@ -1,4 +1,4 @@
-import NavesCard from '../../components/NavesCards/NavesCards'
+import NavesCard from '../../components/navesCards/NavesCards'
 import Header from '../../components/header/Header';
 export default function Naves() {
     
