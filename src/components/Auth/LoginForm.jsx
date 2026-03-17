@@ -37,6 +37,9 @@ export default function LoginForm() {
         </p>
       )}
 
+      <p className="info">
+        Inicio de sesión en entorno de prueba. Puede utilizar cualquier combinación de correo y contraseña.
+      </p>
       
     </form>
   );
