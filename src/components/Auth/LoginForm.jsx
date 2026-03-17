@@ -37,9 +37,7 @@ export default function LoginForm() {
         </p>
       )}
 
-      <p className="cuenta-no">
-        ¿No tienes cuenta todavía? <a href="/Register">Registrarme</a>
-      </p>
+      
     </form>
   );
 }
