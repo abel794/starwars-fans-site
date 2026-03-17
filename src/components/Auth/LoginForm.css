@@ -48,3 +48,13 @@
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0)
 }
+
+.info {
+  margin-top: 12px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  color: #0f172a; /* gris oscuro elegante */
+  border-radius: 6px;
+  line-height: 1.4;
+  text-align: center;
+}
